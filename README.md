@@ -9,15 +9,11 @@ An end-to-end analysis of what drives top guest ratings at restaurants in Mexico
 This project investigates what actually drives a restaurant's overall guest rating — food quality, service, price, parking, smoking policy, alcohol service, and consumer demographics — and turns those findings into concrete business recommendations.
 
 The project was planned and built as a deliberate 3-layer pipeline:
-1. **Excel** — first-pass exploratory analysis using Power Query and Power Pivot
-2. **SQL (T-SQL)** — full data cleaning, relational schema design, and rigorous EDA
-3. **Power BI** — an interactive report and DAX-driven data model
-
-
-Technical Layer	Primary Tool	Core Components & Functions
-Layer 1	Excel	Power Query, Power Pivot data modeling, and first-pass exploratory PivotTables.
-Layer 2	SQL Server (T-SQL)	Data cleaning, window functions for deduplication, relational schema setup, and CTE analytics.
-Layer 3	Power BI	DAX measures, bidirectional filter modeling, and 4-page interactive reporting.
+| **Pipeline Layer** | **Primary Tool** | **Core Implementation & Scope** |
+| :--- | :--- | :--- |
+| **Layer 1** | Excel | Power Query, Power Pivot data modeling, and first-pass exploratory PivotTables. |
+| **Layer 2** | SQL (T-SQL) | Data cleaning, window functions for deduplication, relational schema setup, and CTE analytics. |
+| **Layer 3** | Power BI | DAX measures, bidirectional filter modeling, and 4-page interactive reporting. |
 
 
 An early Excel-only version of this project was shared on LinkedIn, where Maven Analytics engaged with the post and asked whether the complete project would be published to a Maven portfolio. This repository is that complete, end-to-end version — spanning all three layers, with every number independently cross-validated against the raw source data.
